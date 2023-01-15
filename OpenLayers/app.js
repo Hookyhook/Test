@@ -75,8 +75,6 @@ function startNavigation() {
     var lat = lonlat[1];
     var url = "https://www.google.com/maps/dir/?api=1&destination=" + lat + "," + lon;
     window.location.href = url;
-  } else {
-    return null;
   }
 }
 
