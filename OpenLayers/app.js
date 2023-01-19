@@ -17,7 +17,7 @@ function SetUpMap() {
   //Uses the stamen library to set up a new Map Layout source
   var stamenLayer = new ol.layer.Tile({
     source: new ol.source.Stamen({
-      layer: "toner",
+      layer: "terrain",
     }),
   });
 
@@ -27,7 +27,7 @@ function SetUpMap() {
       layers: [stamenLayer],
       view: new ol.View({
         center: ol.proj.fromLonLat([0, 0]),
-        zoom: 1,
+        zoom: 3,
       }),
       controls: [],
       interactions: [],
