@@ -7,7 +7,7 @@ let transporter = nodemailer.createTransport({
   secure: true, // use SSL
   auth: {
     user: 'noreply@particly.ml',
-    pass: 'Fo108ih6?'
+    pass: ''
   },
   tls:{
     //rejectUnauthorized: false
